@@ -85,3 +85,12 @@ const word = "";
 const text = "red RED Red!";
 wordCounter(word, text);
 Expected Output: 0
+
+Test: "It should count and return 3 most used words in the text"
+Code:
+const text = "Hi there hey yo hi hi yay yo whoa there whoa... yay!";
+
+Expected output: Most common words:
+                  hi:3
+                  Whoa:2
+                  yay: 2
